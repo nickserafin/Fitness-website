@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  FirstName: MyString
+  LastName: MyString
+  Height: 1
+  Weight: 1
+  ActivityLevel: 1
+  JoinDate: 2013-03-18
+
+two:
+  FirstName: MyString
+  LastName: MyString
+  Height: 1
+  Weight: 1
+  ActivityLevel: 1
+  JoinDate: 2013-03-18

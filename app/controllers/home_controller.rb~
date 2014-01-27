@@ -1,0 +1,35 @@
+class HomeController < ApplicationController
+  def index
+  	  @promotionlist = Promotion.all
+  end
+
+  def welcome
+  	  
+  end
+  
+  def weight
+  end
+  
+  def cardio
+  end
+  
+  def personal
+  end
+  
+  def nutrition
+  end
+  
+  def about
+  end
+  
+  def contact
+  end
+  
+  def nutrition1
+  end
+  
+  def personal1
+  end
+  	  
+  	  
+end

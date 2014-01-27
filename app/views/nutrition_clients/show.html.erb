@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Firstname:</b>
+  <%= @nutrition_client.FirstName %>
+</p>
+
+<p>
+  <b>Lastname:</b>
+  <%= @nutrition_client.LastName %>
+</p>
+
+<p>
+  <b>Height:</b>
+  <%= @nutrition_client.Height %>
+</p>
+
+<p>
+  <b>Weight:</b>
+  <%= @nutrition_client.Weight %>
+</p>
+
+<p>
+  <b>Dailycalories:</b>
+  <%= @nutrition_client.DailyCalories %>
+</p>
+
+<p>
+  <b>Joindate:</b>
+  <%= @nutrition_client.JoinDate %>
+</p>
+
+
+<%= link_to 'Edit', edit_nutrition_client_path(@nutrition_client) %> |
+<%= link_to 'Back', nutrition_clients_path %>

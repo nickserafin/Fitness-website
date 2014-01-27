@@ -1,0 +1,39 @@
+<%=link_to "Home", home_welcome_path%></br>
+<h1>Listing nutrition_clients</h1>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Height</th>
+    <th>Weight</th>
+    <th>Dailycalories</th>
+    <th>Joindate</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @nutrition_clients.each do |nutrition_client| %>
+  <tr>
+    <td><%= nutrition_client.FirstName %></td>
+    <td><%= nutrition_client.LastName %></td>
+    <td><%= nutrition_client.Height %></td>
+    <td><%= nutrition_client.Weight %></td>
+    <td><%= nutrition_client.DailyCalories %></td>
+    <td><%= nutrition_client.JoinDate %></td>
+    <td><%= link_to 'Show', nutrition_client %></td>
+    <td><%= link_to 'Edit', edit_nutrition_client_path(nutrition_client) %></td>
+    <td><%= link_to 'Destroy', nutrition_client, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Nutrition client', new_nutrition_client_path %></br>
+</br></br></br>
+
+
+<%=link_to "Nutrition Plan", services_nutrition1_path%>
+

@@ -1,0 +1,24 @@
+<html>
+<body>
+<h1>Personal Training</h1>
+<table>
+
+	<td><p><%=link_to "Home", home_welcome_path%></p></td>  
+	<td><p><%=link_to "Weight Training Equipment", home_weight_path%></p></td>
+	<td><p><%=link_to "Cardiovascular Training Equipment", home_cardio_path%></p></td> 
+	<td><p><%=link_to "Personal Training", home_personal_path%></p></td> 
+	<td><p><%=link_to "Nutrition", home_nutrition_path%></p></td> 
+	<td><p><%=link_to "Contact Us", home_contact_path%></p></td>  
+	
+
+
+</table>
+
+<p>If you are having trouble obtaining your goals by yourself then prehaps personal training is right for you!</p>
+<p>Our personal Trainers have years of experience and know exactly what program to use to transform your body into what you have always wanted.<p>
+<p>Simply Click the Link below and fillout some information about yourself.  Once the form is completed you will be contacted with an amount for the services and your login information 
+to see your new workout plan</p>
+
+	<p><%=link_to "Client Sign Up", clients_path%></p></td>
+	
+	<%=image_tag("jump.jpg")%>

@@ -1,0 +1,23 @@
+<html>
+<body>
+<h1>Contact Us</h1>
+<table>
+
+	<td><p><%=link_to "Home", home_welcome_path%></p></td>  
+	<td><p><%=link_to "Weight Training Equipment", home_weight_path%></p></td>
+	<td><p><%=link_to "Cardiovascular Training Equipment", home_cardio_path%></p></td> 
+	<td><p><%=link_to "Personal Training", home_personal_path%></p></td> 
+	<td><p><%=link_to "Nutrition", home_nutrition_path%></p></td> 
+	<td><p><%=link_to "Contact Us", home_contact_path%></p></td>  
+	
+
+
+</table>
+<p>If you have any problems with the site or our services you can contact us with email or by calling us.</p>
+<p>E-mail:ficknation@gmail.com</p>
+<p>Phone:708-307-699</p>
+<p>Thank you very much for your visit and I cannot wait to hear from you if you have any concerns!</p>
+
+<%=image_tag("jump.jpg")%>
+</body>
+</html>

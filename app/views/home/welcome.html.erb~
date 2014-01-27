@@ -1,0 +1,25 @@
+<html>
+<body>
+<h1> Serafin Fitness</h1>
+<table>
+
+	<td><p><%=link_to "Home", home_welcome_path%></p></td>  
+	<td><p><%=link_to "Weight Training Equipment", home_weight_path%></p></td>
+	<td><p><%=link_to "Cardiovascular Training Equipment", home_cardio_path%></p></td> 
+	<td><p><%=link_to "Personal Training", home_personal_path%></p></td> 
+	<td><p><%=link_to "Nutrition", home_nutrition_path%></p></td> 
+	<td><p><%=link_to "Contact Us", home_contact_path%></p></td>  
+	
+
+
+</table>
+
+
+
+<p>All of your fitness needs can be accomplished at this site</p>
+
+<p>We can provide you with the latest and top end fitness equipment</p>
+
+<p>Also, we have elite personal trainers and nutritionists that can transform your body into what you have always wanted it to look like.</p>
+
+<%=image_tag("jump.jpg")%>

@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @advertisment.title %>
+</p>
+
+<p>
+  <b>Descritption:</b>
+  <%= @advertisment.descritption %>
+</p>
+
+<p>
+  <b>Image path:</b>
+  <%= @advertisment.image_path %>
+</p>
+
+<p>
+  <b>Start date:</b>
+  <%= @advertisment.start_date %>
+</p>
+
+<p>
+  <b>End date:</b>
+  <%= @advertisment.end_date %>
+</p>
+
+
+<%= link_to 'Edit', edit_advertisment_path(@advertisment) %> |
+<%= link_to 'Back', advertisments_path %>

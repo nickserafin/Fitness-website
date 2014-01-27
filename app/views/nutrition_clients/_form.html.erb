@@ -1,0 +1,41 @@
+<%= form_for(@nutrition_client) do |f| %>
+  <% if @nutrition_client.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@nutrition_client.errors.count, "error") %> prohibited this nutrition_client from being saved:</h2>
+
+      <ul>
+      <% @nutrition_client.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :FirstName %><br />
+    <%= f.text_field :FirstName %>
+  </div>
+  <div class="field">
+    <%= f.label :LastName %><br />
+    <%= f.text_field :LastName %>
+  </div>
+  <div class="field">
+    <%= f.label :Height %><br />
+    <%= f.number_field :Height %>
+  </div>
+  <div class="field">
+    <%= f.label :Weight %><br />
+    <%= f.number_field :Weight %>
+  </div>
+  <div class="field">
+    <%= f.label :DailyCalories %><br />
+    <%= f.number_field :DailyCalories %>
+  </div>
+  <div class="field">
+    <%= f.label :JoinDate %><br />
+    <%= f.date_select :JoinDate %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
